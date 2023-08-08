@@ -3,12 +3,137 @@
   <head>
     <meta charset="UTF-8" />
     <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <title>Website Design System</title>
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Website Design System</h1>
+    <div id="root">
+      <header>
+        <h1>Website Design System</h1>
+      </header>
+      <main>
+        <section aria-labelledby="colors">
+          <h2 id="colors">Colors</h2>
+          <ul class="colors">
+            <li>
+              <div class="color-box pink"></div>
+              <p class="color-hex">#FF52A2</p>
+              <p class="color-name">pink</p>
+            </li>
+            <li>
+              <div class="color-box lilac"></div>
+              <p class="color-hex">#A076F9</p>
+              <p class="color-name">lilac</p>
+            </li>
+            <li>
+              <div class="color-box orange"></div>
+              <p class="color-hex">#FF9E76</p>
+              <p class="color-name">orange</p>
+            </li>
+            <li>
+              <div class="color-box yellow"></div>
+              <p class="color-hex">#FFCD5F</p>
+              <p class="color-name">yellow</p>
+            </li>
+          </ul>
+        </section>
+        <section aria-labelledby="fonts">
+          <h2 id="fonts">Fonts</h2>
+          <div class="fonts">
+            <article class="sans-serif">
+              <h3>Nunito</h3>
+              <ul>
+                <li class="normal">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+                <li class="bold">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+                <li class="light-italic">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+              </ul>
+            </article>
+            <article class="serif">
+              <h3>IBM Plex Serif</h3>
+              <ul>
+                <li class="normal">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+                <li class="bold">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+                <li class="light-italic">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+              </ul>
+            </article>
+            <article class="monospace">
+              <h3>Victor Mono</h3>
+              <ul>
+                <li class="normal">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+                <li class="bold">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+                <li class="light-italic">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+              </ul>
+            </article>
+            <article class="cursive">
+              <h3>Mali</h3>
+              <ul>
+                <li class="normal">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+                <li class="bold">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+                <li class="light-italic">
+                  Whereas disregard and contempt for human rights have resulted.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+        <section aria-labelledby="text-styles">
+          <h2 id="text-styles">Text Styles</h2>
+          <article class="text-styles">
+            <h3></h3>
+            <div>
+              <h4 class="main-heading">Main Heading</h4>
+              <ul>
+                <li><strong>font-family:</strong> Mali</li>
+                <li><strong>font-weight:</strong> 700</li>
+                <li><strong>font-size:</strong> 44px</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="sub-heading">Sub Heading</h4>
+              <ul>
+                <li><strong>font-family:</strong> Victor Mono</li>
+                <li><strong>font-weight:</strong> 300</li>
+                <li><strong>font-size:</strong> 30px</li>
+                <li><strong>font-style:</strong> italic</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="default-paragraph">Default Paragraph</h4>
+              <ul>
+                <li><strong>font-family:</strong> Nunito</li>
+                <li><strong>font-weight:</strong> 400</li>
+                <li><strong>font-size:</strong> 20px</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

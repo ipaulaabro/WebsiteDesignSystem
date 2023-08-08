@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courier+Prime&family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,300&family=Mali:ital,wght@0,400;0,700;1,300&family=Nunito:ital,wght@0,400;0,700;1,300&family=Victor+Mono:ital,wght@0,400;0,700;1,300&family=Work+Sans:wght@300;600&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+  background: #fafafa;
+  color: #555;
+}
+
+#root {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  color: #111;
+  font: 60px/2.5 "Abril Fatface", cursive;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 20px;
+  border-top: 8px dotted #aaa;
+  padding: 0 30px;
+}
+
+h2 {
+  margin: 15px 0;
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #333;
+}
+
+ul.colors li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.color-box {
+  width: 150px;
+  height: 75px;
+  border-radius: 15px;
+}
+
+.pink {
+  background: #ff52a2;
+}
+
+.lilac {
+  background: #a076f9;
+}
+
+.orange {
+  background: #ff9e76;
+}
+
+.yellow {
+  background: #ffcd5f;
+}
+
+.colors li p {
+  font: 20px/1.5 "Courier Prime", monospace;
+  text-align: center;
+}
+
+.color-name {
+  color: #777;
+}
+
+.fonts article {
+  margin-bottom: 15px;
+}
+
+.fonts article ul {
+  padding: 0 0 20px 20px;
+}
+
+.fonts h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #555;
+  text-decoration: 2px underline;
+}
+.sans-serif {
+  font-family: "Nunito", sans-serif;
+}
+
+.serif {
+  font-family: "IBM Plex Serif", serif;
+}
+
+.monospace {
+  font-family: "Victor Mono", monospace;
+}
+
+.cursive {
+  font-family: "Mali", cursive;
+}
+
+.fonts li {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.normal {
+  font-weight: 400;
+  color: #333;
+}
+
+.bold {
+  font-weight: 700;
+  color: #111;
+}
+
+.light-italic {
+  font-weight: 300;
+  font-style: italic;
+  color: #333;
+}
+
+h4 {
+  color: #333;
+  padding: 20px 0;
+}
+
+.main-heading {
+  font: 700 44px/1 Mali, cursive;
+}
+
+.sub-heading {
+  font: 300 30px/1 "Victor Mono", monospace;
+  font-style: italic;
+}
+
+.default-paragraph {
+  font: 400 20px/1 Nunito, sans-serif;
+}
+
+.text-styles ul {
+  color: #777;
+  margin-left: 20px;
+}
+
+.text-styles li {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+strong {
+  color: #555;
+  font-weight: 700;
+}
